@@ -1,10 +1,8 @@
 const withMDX = require('@next/mdx')()
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+    output: "export",
     pageExtensions: ['js', 'jsx', 'mdx', 'ts', 'tsx'],
-    images: {
-        domains: ['raw.githubusercontent.com',"gabrieltrinidad0101.github.io"],
-    },
 }
 
 module.exports = withMDX(nextConfig)

@@ -6,7 +6,7 @@ export const Experience = () => {
     return (
         <Container id="experience">
             <SectionTitle>
-                <svg class="size-8" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M3 7m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"></path><path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2"></path><path d="M12 12l0 .01"></path><path d="M3 13a20 20 0 0 0 18 0"></path></svg>
+                <svg className="size-8" width="24" height="24" viewBox="0 0 24 24" strokeWidth="2" stroke="currentColor" fill="none" strokeLinecap="round" strokeLinejoin="round"><path stroke="none" d="M0 0h24v24H0z" fill="none"></path><path d="M3 7m0 2a2 2 0 0 1 2 -2h14a2 2 0 0 1 2 2v9a2 2 0 0 1 -2 2h-14a2 2 0 0 1 -2 -2z"></path><path d="M8 7v-2a2 2 0 0 1 2 -2h4a2 2 0 0 1 2 2v2"></path><path d="M12 12l0 .01"></path><path d="M3 13a20 20 0 0 0 18 0"></path></svg>
                 Experience
             </SectionTitle>
             <article className="container px-2 mt-10">
@@ -29,7 +29,7 @@ export const Experience = () => {
                                 </svg>
                             </span>
                             <h3 className="flex items-center gap-2 mb-1 text-lg font-semibold text-primary-700 dark:text-primary-400">
-                                {experience.role} <span class="dark:text-white text-dark-700 font-normal">-</span>
+                                {experience.role} <span className="dark:text-white text-dark-700 font-normal">-</span>
                                 <span className="text-sm text-crusta-800 dark:text-crusta-300/90">
                                     {experience.company}
                                 </span>

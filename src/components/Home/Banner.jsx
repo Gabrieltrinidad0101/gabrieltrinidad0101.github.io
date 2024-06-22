@@ -8,7 +8,7 @@ export const Banner = () => {
             <div className="text-left lg:flex lg:flex-row-reverse lg:justify-center lg:items-center md:gap-x-4">
                 <div className="Hero-image flex justify-center mb-6 w-16 lg:w-1/5 ">
                     <Image
-                        src="https://gabrieltrinidad0101.github.io/portafolio/img/myImage2.png"
+                        src="/profile.png"
                         alt="gabriel Trinidad"
                         width={200}
                         height={200}
