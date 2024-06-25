@@ -1,4 +1,3 @@
-import Link from 'next/link'
 import { SectionTitle } from '../SectionTitle'
 import { Container } from '../Container'
 import Image from 'next/image'
@@ -60,6 +59,7 @@ export const Projects = async () => {
                     title="Design Create" 
                     isFull={true}
                     bgWhite={true}
+                    demo={"https://gabrieltrinidad.com/DesignCreate/#/login"}
                     code="https://github.com/Gabrieltrinidad0101/DesignCreate"
                     description="Design Create offers a comprehensive application that empowers you to design and create various assets, including posts, logos, and more, with ease and completeness." 
                     items={["Node.js","Mongodb","Cypress","CI/CD","Docker","Mui","Jest","React.tsx","Typescript","Nginx","Sentry","Hexagonal Architecture",]}

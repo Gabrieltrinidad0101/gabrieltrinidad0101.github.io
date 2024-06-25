@@ -2,6 +2,7 @@ import '@fontsource-variable/onest'
 import { Navbar } from '@/components/Navbar'
 import { DarkModeProvider } from './providers/DarkModeProvider'
 import './globals.css'
+import { Footer } from '@/components/Footer'
 
 export const metadata = {
     metadataBase: new URL('https://gabrieltrinidad.dev'),
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
                     <Navbar />
                     {children}
                     <div className='mb-7'></div>
+                    <Footer/>
                 </DarkModeProvider>
             </body>
         </html>

@@ -1,5 +1,6 @@
 import React from 'react'
 import BackgroundCss from "./Background.module.css"
+
 export const Background = () => {
     return (
         <div className={BackgroundCss.area} >
