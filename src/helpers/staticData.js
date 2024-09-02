@@ -10,7 +10,6 @@ import ExpressIcon from '@/components/icons/stack/Express'
 import GitIcon from '@/components/icons/stack/Git'
 import HtmlIcon from '@/components/icons/stack/Html'
 import JavaScriptIcon from '@/components/icons/stack/JavaScript'
-import KafkaIcon from '@/components/icons/stack/Kafka'
 import MongoDBIcon from '@/components/icons/stack/MongoDB'
 import MySQLIcon from '@/components/icons/stack/MySQL'
 import NginxIcon from '@/components/icons/stack/Nginx'
@@ -27,14 +26,14 @@ export const experienceInfo = [
         description: 'As a freelancer, I develop solutions using Go, microservices, Node.js, MongoDB, MySQL, Vue and React. Additionally, I implement good practices in testing and CI/CD.',
     },
     {
-        role: 'FullStack Programmer',
+        role: 'FullStack Programmer (Intern)',
         date: '2022 - 2023',
         company: 'Sistecsoft',
         description:
             'Developing billing systems aimed at internet distribution companies, using C#, JavaScript, MySQL, jQuery, Xamarin, Web Forms and .NET.',
     },
     {
-        role: 'FullStack Programmer',
+        role: 'FullStack Programmer (Intern)',
         date: '2021 - 2022',
         company: 'Servextex',
         description:
@@ -61,7 +60,6 @@ export const MY_STACK = {
     learning: [
         { name: 'AWS', icon: AwsIcon },
         { name: 'Kubernetes', icon: KubernetesIcon },
-        { name: 'Kafka', icon: KafkaIcon },
         { name: 'Bazel', icon: BazelIcon },
     ],
     tools: [

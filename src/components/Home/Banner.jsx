@@ -2,6 +2,7 @@ import Image from 'next/image'
 import { Pill } from '../Pill'
 import EmailIcon from '../icons/Email'
 import GitHubIcon from '../icons/GitHub'
+import LinkedInIcon from '../icons/LinkedIn'
 export const Banner = () => {
     return (
         <section className="relative mx-auto container px-2 pt-44 lg:h-screen overflow-hidden lg:pt-0 lg:w-[740px] lg:flex lg:flex-col lg:justify-center">
@@ -42,6 +43,11 @@ export const Banner = () => {
                 <li>
                     <Pill url={'mailto:gabrielqwes123@gmail.com'} externalUrl={true}>
                         <EmailIcon className="size-4 md:size-6" /> gabrielqwes123@gmail.com
+                    </Pill>
+                </li>
+                <li>
+                    <Pill url={'https://www.linkedin.com/in/gabriel-trinidad-4407b8281/'} externalUrl={true}>
+                        <LinkedInIcon className="size-4 md:size-6" />Linkedin
                     </Pill>
                 </li>
             </ul>

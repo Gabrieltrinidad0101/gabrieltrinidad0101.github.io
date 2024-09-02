@@ -77,6 +77,7 @@ export const Projects = async () => {
                     image="/fire-ball.png" 
                     title="Fire Ball - Multiplayer Video Game" 
                     code="https://github.com/Gabrieltrinidad0101/Fire-Ball-Multi-Player-Game"
+                    demo="https://gabrieltrinidad.com/Fire-Ball-Multi-Player-Game/#/login"
                     description="At one point in our lives, like many programmers, we yearned to create a multiplayer game. It was this desire that led me to develop Fire Ball." 
                     items={["Go","React.tsx","Typescript","Mysql","Microservices",]}
                 />
