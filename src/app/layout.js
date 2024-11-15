@@ -4,15 +4,17 @@ import { DarkModeProvider } from './providers/DarkModeProvider'
 import './globals.css'
 import { Footer } from '@/components/Footer'
 
+const years = new Date().getFullYear() - 2020
+
 export const metadata = {
     metadataBase: new URL('https://gabrieltrinidad.dev'),
     title: 'Gabriel Trinidad Dev',
     description:
-        '+3 years of experience. FullStack Developer. Passionate software developer with a focus on creating innovative and efficient solutions committed to continuous improvement and excellence in each project.',
+        `+${years} years of experience. FullStack Developer. Passionate software developer with a focus on creating innovative and efficient solutions committed to continuous improvement and excellence in each project.`,
     openGraph: {
         title: 'Gabriel Trinidad Dev',
         description:
-            '+3 years of experience. FullStack Developer. Passionate software developer with a focus on creating innovative and efficient solutions committed to continuous improvement and excellence in each project.',
+            `+${years} years of experience. FullStack Developer. Passionate software developer with a focus on creating innovative and efficient solutions committed to continuous improvement and excellence in each project.`,
         siteName: 'gabrieltrinidad.dev',
         type: 'website',
         locale: 'en_EN',

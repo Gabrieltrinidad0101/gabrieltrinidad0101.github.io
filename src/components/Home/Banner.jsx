@@ -4,6 +4,8 @@ import EmailIcon from '../icons/Email'
 import GitHubIcon from '../icons/GitHub'
 import LinkedInIcon from '../icons/LinkedIn'
 export const Banner = () => {
+    const years = new Date().getFullYear() - 2020
+
     return (
         <section className="relative mx-auto container px-2 pt-44 lg:h-screen overflow-hidden lg:pt-0 lg:w-[740px] lg:flex lg:flex-col lg:justify-center">
             <div className="text-left lg:flex lg:flex-row-reverse lg:justify-center lg:items-center md:gap-x-4">
@@ -22,7 +24,7 @@ export const Banner = () => {
                         Hi, <span className=" text-primary-600 dark:text-primary-400">I am Gabriel Trinidad</span>
                     </h1>
                     <h2 className="lg:text-xl mt-6 md:mt-10 text-dark-700 dark:text-dark-200 text-pretty">
-                        +3 years of experience.{' '}
+                        +{years} years of experience.{' '}
                         <span className="text-crusta-800 dark:text-crusta-300 ">
                             FullStack Developer
                         </span>
