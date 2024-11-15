@@ -21,24 +21,20 @@ import TypeScriptIcon from '@/components/icons/stack/TypeScript'
 export const experienceInfo = [
     {
         role: 'FullStack Programmer',
-        date: '2024 - Present',
-        company: 'Freelancer',
-        description: 'As a freelancer, I develop solutions using Go, microservices, Node.js, MongoDB, MySQL, Vue and React. Additionally, I implement good practices in testing and CI/CD.',
+        date: '2023 - CURRENT',
+        company: 'ETHICS CODE',
+        description: 'Developing solutions using Go, Microservices,Quasar, Node.js, MongoDB, MySQL, Vue and React. Additionally, I implement good practices in testing and CI/CD.',
     },
     {
-        role: 'FullStack Programmer (Intern)',
-        date: '2022 - 2023',
+        role: 'FullStack Programmer',
+        date: '2021 - 2023',
         company: 'Sistecsoft',
         description:
-            'Developing billing systems aimed at internet distribution companies, using C#, JavaScript, MySQL, jQuery, Xamarin, Web Forms and .NET.',
-    },
-    {
-        role: 'FullStack Programmer (Intern)',
-        date: '2021 - 2022',
-        company: 'Servextex',
-        description:
-            'Developing billing systems in Python, using Flask, HTML, CSS, JavaScript, MySQL, Java and Kivy for the mobile application.',
-    },
+            `Developing billing systems aimed at internet distribution companies, using C#, JavaScript, MySQL, jQuery, Xamarin, Web Forms and .NET.
+            <br/>
+            <br/>
+            Developing billing systems in Python, using Flask, HTML, CSS, JavaScript, MySQL, Java and Kivy for the mobile application.`,
+    }
 ]
 
 export const MY_STACK = {

@@ -37,9 +37,7 @@ export const Experience = () => {
                             <time className="block mb-2 text-sm font-normal leading-none text-primary-950/80 dark:text-primary-200/90">
                                 {experience.date}
                             </time>
-                            <p className="mb-4 font-normal text-dark-700 dark:text-dark-200 text-base text-pretty">
-                                {experience.description}
-                            </p>
+                            <p className="mb-4 font-normal text-dark-700 dark:text-dark-200 text-base text-pretty" dangerouslySetInnerHTML={{ __html: experience.description }}></p>
                         </li>
                     ))}
                 </ul>
