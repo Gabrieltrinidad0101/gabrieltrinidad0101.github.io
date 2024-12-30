@@ -4,7 +4,7 @@ import { DarkModeProvider } from './providers/DarkModeProvider'
 import './globals.css'
 import { Footer } from '@/components/Footer'
 
-const years = new Date().getFullYear() - 2020
+const years = new Date().getFullYear() - 2021
 
 export const metadata = {
     metadataBase: new URL('https://gabrieltrinidad.dev'),

@@ -4,7 +4,7 @@ import EmailIcon from '../icons/Email'
 import GitHubIcon from '../icons/GitHub'
 import LinkedInIcon from '../icons/LinkedIn'
 export const Banner = () => {
-    const years = new Date().getFullYear() - 2020
+    const years = new Date().getFullYear() - 2021
 
     return (
         <section className="relative mx-auto container px-2 pt-44 lg:h-screen overflow-hidden lg:pt-0 lg:w-[740px] lg:flex lg:flex-col lg:justify-center">
