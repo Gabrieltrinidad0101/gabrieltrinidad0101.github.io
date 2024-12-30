@@ -17,6 +17,7 @@ import NodeJSIcon from '@/components/icons/stack/NodeJS'
 import ReactJSIcon from '@/components/icons/stack/ReactJS'
 import BazelIcon from '@/components/icons/stack/Bazel'
 import TypeScriptIcon from '@/components/icons/stack/TypeScript'
+import FlutterIcon from '@/components/icons/stack/Flutter'
 
 export const experienceInfo = [
     {
@@ -44,6 +45,7 @@ export const MY_STACK = {
         { name: 'JavaScript', icon: JavaScriptIcon },
         { name: 'React', icon: ReactJSIcon },
         { name: 'TypeScript', icon: TypeScriptIcon },
+        { name: 'Flutter', icon: FlutterIcon },
     ],
     backend: [
         { name: 'NodeJS', icon: NodeJSIcon },
@@ -54,11 +56,11 @@ export const MY_STACK = {
         { name: 'Go', icon: GolangIcon },
     ],
     learning: [
-        { name: 'AWS', icon: AwsIcon },
         { name: 'Kubernetes', icon: KubernetesIcon },
         { name: 'Bazel', icon: BazelIcon },
     ],
     tools: [
+        { name: 'AWS', icon: AwsIcon },
         { name: 'Docker', icon: DockerIcon },
         { name: 'Git', icon: GitIcon },
         { name: 'GitHub', icon: GitHubIcon },
